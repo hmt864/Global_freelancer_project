@@ -25,12 +25,24 @@ Interactive Tableau dashboard exploring freelancer **rates**, **experience**, **
 
 **The Cleaning workflow**
 - Standardized categorical fields and trimmed strings
-- Converted rate/percent fields to numeric
+  - Standardizing gender into F and M based on the distinct gender values
+    <img src="images/p1.png" alt="Alt Text" width="600" height="600">
+  - Unified and converted hourly_rate_usd from non-numeric characters with "$" sign or "USD" in prefix to numeric numbers
+    <img src="images/p6.png" alt="Alt Text" width="600" height="600">
+  - Standardizing multiple status of is_active (eg, 0, 'N', 'False', 'yes') to two status "Y" and "N"
+    <img src="images/p8.png" alt="Alt Text" width="600" height="600">
+  - Client satisfaction was unified and changed from, for example, "40" or "40%" to a numerical value (0.4).
+    <img src="images/p9.png" alt="Alt Text" width="600" height="600">
 - Median imputation for missing numerics
+  - The reason for using the median rather than the mean is that the median can prevent the influence of potential outliers.
+    <img src="images/p11.png" alt="Alt Text" width="600" height="600">
 - Duplicate checks with window functions
-
-
+  - Ensure the same person won't be registered multiple times
+    <img src="images/p10.png" alt="Alt Text" width="600" height="600">
 ---
 
+## Insights
 
-
+- Which skills delight clients most?
+- What’s the expected rate for a designer with ~10 years?
+- Talent supply by country
