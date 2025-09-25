@@ -41,8 +41,3 @@ Interactive Tableau dashboard exploring freelancer **rates**, **experience**, **
     <img src="images/p10.png" alt="Alt Text" width="600" height="600">
 ---
 
-## Insights
-
-- Which skills delight clients most?
-- What’s the expected rate for a designer with ~10 years?
-- Talent supply by country
