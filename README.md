@@ -4,9 +4,9 @@
 Interactive Tableau dashboard exploring freelancer **rates**, **experience**, **skills**, and **geography**.
 
 **Live dashboard**
-➡️ https://public.tableau.com/views/global_freelancers_project/GlobalFreelancerMarketOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+➡️ https://public.tableau.com/views/global_freelancers/GlobalFreelancerMarketOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-[![Open dashboard](images/dashboard.png)](https://hmt864.github.io/Global_freelancer_project/)
+[![Open dashboard](images/Global_Freelancer_Market_Overview.png)](https://hmt864.github.io/Global_freelancer_project/)
 
 
 ## Tableau Dashboard – What’s inside
